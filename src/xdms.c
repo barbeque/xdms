@@ -245,7 +245,7 @@ int main(int argc, char **argv){
 
 
 		if (opt == OPT_VERBOSE) {
-			if ((cmd == CMD_UNPACK)) {
+			if (cmd == CMD_UNPACK) {
 				if (inm)
 					fprintf(stderr,"Unpacking file %s to ",inm);
 				else
